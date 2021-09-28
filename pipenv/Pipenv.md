@@ -1,4 +1,4 @@
-# Python_pipenv
+# Pipenv
 
 ## Install pipenv
 ```zsh
