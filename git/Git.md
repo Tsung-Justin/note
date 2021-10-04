@@ -3,14 +3,14 @@
 ## Initial
 ```zsh
 # Copy the remote repository file to the local end.
-git clone <Repository URL>
+git clone [Repository URL]
 
 # Create a new local Repository.
 git init
 
 # Add the specified file (or folder) to version control.
 # Use "git add ." all can be add.
-git add <file or folder>
+git add [file or folder]
 
 # Check the status of local file changes.
 git status
@@ -19,13 +19,13 @@ git status
 git commit
 
 # Submit (commit) the current transaction and set summary description text through the -m parameter.
-git commit -m "message"
+git commit -m "[message]"
 
 # Publish the commit of the local repository to the remote end.
 git push
 
 # Publish to the remote designated branch.
-git push origin <branch_name>
+git push origin [branch_name]
 ```
 
 ## Branch
@@ -34,22 +34,22 @@ git push origin <branch_name>
 git branch
 
 # Create the branch.
-git branch <branch_name>
+git branch [branch_name]
 
 # Force delete the specified branch. (You need to switch to another branch before deleting.)
-git branch -D <branch_name>
+git branch -D [branch_name]
 
 # Modify the branch name,
-git branch -m <old_branch_name> <new_branch_name>
+git branch -m [old_branch_name] [new_branch_name]
 
 # Switch to the specified branch.
-git checkout <branch_name>
+git checkout [branch_name]
 
 # Create and switch to the specified branch.
-git checkout -b <branch_name>
+git checkout -b [branch_name]
 
-# Switch to the specified commit. (Same as git checkout <branch_name>.)
-git checkout <hash>
+# Switch to the specified commit. (Same as git checkout [branch_name].)
+git checkout [hash]
 ```
 
 ## Something
@@ -61,5 +61,5 @@ git stash
 git log
 
 # Force recovery the specified commit. (Through the Hash value.)
-git reset --hard <hash>
+git reset --hard [hash]
 ```
