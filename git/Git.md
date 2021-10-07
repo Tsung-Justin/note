@@ -26,7 +26,12 @@ git push
 
 # Publish to the remote designated branch.
 git push origin [branch_name]
+
+# Push master to remote branch.
+git push origin master:[branch_name]
 ```
+
+
 
 ## Branch
 ```zsh
